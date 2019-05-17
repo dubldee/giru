@@ -1,0 +1,32 @@
+{
+  "name": "giru",
+  "version": "1.0.0",
+  "description": "Super easy Express HTTP logging middleware for devs",
+  "author": "Double D",
+  "license": "MIT",
+  "keywords": [
+    "express",
+    "http",
+    "logger",
+    "middleware"
+  ],
+  "repository": "dubldee/giru",
+  "dependencies": {
+    "colors": "1.3.3",
+    "express": "4.16.4"
+  },
+  "devDependencies": {
+    "standard": "12.0.1"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "lint": "standard index.js"
+  }
+}
